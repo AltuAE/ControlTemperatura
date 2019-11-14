@@ -3,9 +3,9 @@
 
 /* PROTOTIPOS */
 
-int controltemp (int);
+int controltemp (int,int);
 //int control_pistola(int,int);
-int calentar(int, int);
+int calentar(int, int,int,unsigned char*);
 
 /* DEFINICIONES */
 
@@ -23,9 +23,10 @@ int calentar(int, int);
 
 int main()
 {
-    /* Variables para setpoint de temp. y  de aire, estado actual (inicial frio)  */
+    /* Variables para setpoint de temp. y  de aire, lectura de temperatura,
+    y estado actual (inicial frio) */
 
-    int setpoint, set_aire, select_salida, estado=FRIO;
+    int setpoint, set_aire, select_salida, tactual, estado=FRIO;
 
     /* Selector de iron o pistola. Bit 0: Iron. Bit 1: Pistola de aire */
 
@@ -61,11 +62,11 @@ int main()
         switch (estado)
         {
             case FRIO:
-                estado = calentar(setpoint,select_salida);
+                estado = calentar(setpoint,select_salida,tactual,&salida);
             break;
 
             case CALIENTE:
-                estado = controltemp(setpoint);
+                estado = controltemp(setpoint,tactual);
             break;
         }
 
@@ -76,23 +77,22 @@ int main()
 
 /* FUNCIÓN DE CALENTAMIENTO */
 
-int calentar (int setpoint, int select_salida)
+int calentar (int setpoint, int select_salida,int tactual,unsigned char *salida)
 {
-    int tactual, estado;
-    unsigned char salida;
+    int estado;
 
     /* Si la temperatura es menor a la deseada caliento la salida correspondiente */
 
     if (tactual<setpoint)
     {
-        SET_BIT(salida,select_salida);
+        SET_BIT(*salida,select_salida);
         estado=FRIO;
     }
 
     /* Si la temperatura alcanzó el valor seteado, dejo de calentar */
     else
     {
-        CLR_BIT(salida,select_salida);
+        CLR_BIT(*salida,select_salida);
         estado=CALIENTE;
     }
     return estado;
@@ -100,9 +100,9 @@ int calentar (int setpoint, int select_salida)
 
 /* FUNCION DE LECTURA SIN CALENTAR */
 
-int controltemp (int setpoint)
+int controltemp (int setpoint,int tactual)
 {
-    int tactual, estado;
+    int estado;
 
     /* Asigno el estado FRIO cuando la temp. es mas baja que setpoint - C grados */
     if (tactual<setpoint-C)
