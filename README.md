@@ -1,5 +1,11 @@
 # UTN FRA - INFORMÁTICA II - TP MÁQUINA DE ESTADOS
 
+### Comisión: 2-12
+
+### Profesores
+- Prof. Viard, Gustavo
+- Ayte. TP. Corbalan, Damian
+
 ### Integrantes
 - Altuzarra, Alan
 - Pereyra, Nicolas
@@ -28,7 +34,7 @@ A continuación una descripción de las constantes, variables, estados y funcion
 
 ###### Variables de Salida (funcion donde se encuentran)
 
-- salida (main, calentar): Salida de 8 bits. El bit 4 (IRONOUT) corresponde al iron, mientras que el bit 5 (PISTOLAOUT) corresponde a la pistola de calor. Utilizamos un control ON/OFF.
+- salida (main, calentar): Salida de 8 bits. El bit 4 (IRONOUT) corresponde al iron, mientras que el bit 5 (PISTOLAOUT) corresponde a la pistola de calor. Se utiliza un control ON/OFF.
 - salida_aire (main): Salida de aire para la pistola de calor. Será 0 cuando no se esté usando la pistola, y será set_aire cuando sí se esté usando.
 
 ###### Otras variables
