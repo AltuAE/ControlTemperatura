@@ -4,7 +4,6 @@
 /* PROTOTIPOS */
 
 int controltemp (int,int);
-//int control_pistola(int,int);
 int calentar(int, int,int,unsigned char*);
 
 /* DEFINICIONES */
