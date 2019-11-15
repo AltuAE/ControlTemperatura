@@ -18,6 +18,11 @@ Lógica de control de temperatura (ON/OFF) para estación de soldado. La estaci�
 - Selección de fuerza de salida de aire.
 - Lectura de temperatura.
 
+El funcionamiento está descrito básicamente por el diagrama de estados y transiciones. Para implementar dicho funcionamiento se utilizan los elementos descritos en la sección `Codigo`.
+Al seleccionar un setpoint de temperatura, la máquina calienta la herramienta seleccionada hasta que esté a la temperatura deseada y luego la deja de calentar, permitiendo que baje una cantidad "C" de grados definida en el código como un margen para no encenderse de nuevo con cambios muy pequeños de temperatura.
+Si está seleccionada la pistola de calor, además del control de temperatura, puede seleccionarse el flujo de aire. Si se selecciona el Iron, la salida de aire se desactiva.
+Las funciones fueron programadas para permitir cambiar de opción (Iron o Pistola) rápidamente y que no ocurra, por ejemplo, que se tenga que esperar a que termine de calentarse el Iron para cambiar a la Pistola.
+
 ### Código
 A continuación una descripción de las constantes, variables, estados y funciones del código y sus propósitos.
 
