@@ -26,7 +26,7 @@ Las funciones fueron programadas para permitir cambiar de opción (Iron o Pistol
 ### Código
 A continuación una descripción de las constantes, variables, estados y funciones del código y sus propósitos.
 
-###### Archivos
+###### Archivos (Implementacion Final)
 El proyecto está constituido por los siguientes archivos:
 - ControlTemperatura.c: Contiene únicamente la lógica principal en un main. 
 - funciones.c: Contiene las funciones a las que llama el main mediante punteros.

@@ -1,0 +1,329 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 14886>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr ( 1  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 37.02 Tm 0 Tr (#include "funcydef.h") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr ( 2  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr ( 3  ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 59.70 Tm 0 Tr (/* FUNCIÓN DE CALENTAMIENTO */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr ( 4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr ( 5  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 82.37 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 73.70 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 82.37 Tm 0 Tr (calentar ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 82.37 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 136.35 82.37 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+160.35 73.70 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 82.37 Tm 0 Tr (setpoint) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 82.37 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 220.35 82.37 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 73.70 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 82.37 Tm 0 Tr (select_salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 82.37 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 334.35 82.37 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+358.35 73.70 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 82.37 Tm 0 Tr (tactual) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 82.37 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 412.35 82.37 Tm 0 Tr (unsigned char ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.35 82.37 Tm 0 Tr (*) Tj  ET Q
+1.000 1.000 1.000 rg
+502.35 73.70 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 502.35 82.37 Tm 0 Tr (salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 538.35 82.37 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr ( 6  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.71 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr ( 7  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 105.05 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 105.05 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 96.38 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 105.05 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 105.05 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( 8  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr ( 9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.73 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 76.35 127.73 Tm 0 Tr (/* Si la temperatura es menor a la deseada caliento la salida correspondiente */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr (10  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr (11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 150.41 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 150.41 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 150.41 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 141.74 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 150.41 Tm 0 Tr (tactual) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 150.41 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 141.74 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 150.41 Tm 0 Tr (setpoint) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 150.41 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 161.74 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (13  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 173.08 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 164.41 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 173.08 Tm 0 Tr (SET_BIT) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 173.08 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 164.41 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 173.08 Tm 0 Tr (salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 173.08 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 164.41 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 173.08 Tm 0 Tr (select_salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 173.08 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (14  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 184.42 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 175.75 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 184.42 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 184.42 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 175.75 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 184.42 Tm 0 Tr (FRIO) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 184.42 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (15  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.76 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 195.76 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr (16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr (17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 218.44 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 76.35 218.44 Tm 0 Tr (/* Si la temperatura alcanzó el valor seteado, dejo de calentar */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr (18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 229.78 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 229.78 Tm 0 Tr (else) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 241.11 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 241.11 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 252.45 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 243.78 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 252.45 Tm 0 Tr (CLR_BIT) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 252.45 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 243.78 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 252.45 Tm 0 Tr (salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 252.45 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 243.78 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 252.45 Tm 0 Tr (select_salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 252.45 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 255.12 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 263.79 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 263.79 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 255.12 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 263.79 Tm 0 Tr (CALIENTE) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 263.79 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 275.13 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 275.13 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr (23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 286.47 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 286.47 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 277.80 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 286.47 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 286.47 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr (24  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.81 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr (25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (26  ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 320.48 Tm 0 Tr (/* FUNCION DE LECTURA SIN CALENTAR */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (28  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 343.16 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 334.49 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 343.16 Tm 0 Tr (controltemp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 343.16 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 343.16 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 334.49 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 343.16 Tm 0 Tr (setpoint) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 238.35 343.16 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 334.49 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 343.16 Tm 0 Tr (select_salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 352.35 343.16 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+376.35 334.49 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 376.35 343.16 Tm 0 Tr (tactual) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 430.35 343.16 Tm 0 Tr (unsigned char ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 514.35 343.16 Tm 0 Tr (*) Tj  ET Q
+1.000 1.000 1.000 rg
+520.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 520.35 343.16 Tm 0 Tr (salida) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 556.35 343.16 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (29  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 354.50 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr (30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.84 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 365.84 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 357.17 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 365.84 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 365.84 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr (31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr (32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 388.52 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 76.35 388.52 Tm 0 Tr (/* Asigno el estado FRIO cuando la temp. es mas baja que setpoint - C grados */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.85 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 399.85 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 399.85 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 391.18 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 399.85 Tm 0 Tr (tactual) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 399.85 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 391.18 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 399.85 Tm 0 Tr (setpoint) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 399.85 Tm 0 Tr (-) Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 391.18 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 399.85 Tm 0 Tr (C) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 399.85 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 411.19 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 402.52 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 411.19 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 411.19 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 411.19 Tm 0 Tr (FRIO) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 411.19 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.87 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 76.35 433.87 Tm 0 Tr (/* Si t sigue siendo mayor que setpoint - C grados, sigo en el mismo estado */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 445.21 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 445.21 Tm 0 Tr (else) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr (38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 456.55 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 447.88 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 456.55 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 456.55 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 447.88 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 456.55 Tm 0 Tr (CALIENTE) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 456.55 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr (39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 479.22 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 479.22 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 470.55 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 479.22 Tm 0 Tr (estado) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 479.22 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (41  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 490.56 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+5 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 5 0 R
+/F1 6 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+7 0 obj
+<<
+/Names []
+>>
+endobj
+8 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 5)
+/CreationDate (D:20191115201014)
+>>
+endobj
+9 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000015035 00000 n 
+0000015317 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000015124 00000 n 
+0000015223 00000 n 
+0000015431 00000 n 
+0000015462 00000 n 
+0000015569 00000 n 
+trailer
+<<
+/Size 10
+/Root 9 0 R
+/Info 8 0 R
+>>
+startxref
+15672
+%%EOF
