@@ -40,16 +40,9 @@ int main()
 
 
         /* Manejo de estados */
-        switch (estado)
-        {
-            case FRIO:
-                estado = (*puntero[0])(setpoint,select_salida,tactual,&salida);
-            break;
 
-            case CALIENTE:
-                estado = (*puntero[1])(setpoint,select_salida,tactual,&salida);
-            break;
-        }
+        estado = (*puntero[estado])(setpoint,select_salida,tactual,&salida);
+
 
     }
     return 1;
